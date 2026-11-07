@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: test title
 description: test description
+baseurl: /docs/
