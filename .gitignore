@@ -1,5 +1,8 @@
 .env
 
+Gemfile.lock
+
+.jekyll-cache/
+
 .bundle/
 vendor/bundle/
-Gemfile.lock
