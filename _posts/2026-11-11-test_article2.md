@@ -1,5 +1,6 @@
 ---
 title: test article2
+modified_date: 2026-11-13
 post_type: article
 language: polish
 tags:
