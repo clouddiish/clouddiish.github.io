@@ -1,7 +1,11 @@
 ---
-title: tag overview
+title: tags
+layout: page
 ---
-# tags overview
+# tags
+
+test tags description
+
 <ul>
   {% assign sorted_tags = site.tags | sort %}
 
