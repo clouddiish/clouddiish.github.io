@@ -1,8 +1,5 @@
 ---
-title: home
+title: Olga Szymczak (clouddiish)
 layout: home
 ---
-
-# test home
-
 test home text

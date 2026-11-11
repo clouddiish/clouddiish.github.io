@@ -6,8 +6,8 @@ plugins:
   - jekyll-seo-tag
 
 url: "https://clouddiish.github.io"
-title: test title
-description: test description
+title: clouddiish
+description: this is my personal website with anything and everything
 
 author:
    name: Olga Szymczak (clouddiish)
