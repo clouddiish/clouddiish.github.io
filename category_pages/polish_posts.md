@@ -1,7 +1,7 @@
 ---
 layout: custom_home
 title: polish posts
-permalink: /categories/polish.html
+permalink: /categories/polish/
 pagination:
   enabled: true
   category: polish

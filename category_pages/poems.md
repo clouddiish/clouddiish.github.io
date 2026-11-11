@@ -1,9 +1,9 @@
 ---
 layout: custom_home
 title: poems
-permalink: /categories/poems.html
+permalink: /categories/poem/
 pagination:
   enabled: true
-  category: poems
+  category: poem
 ---
 test poems description

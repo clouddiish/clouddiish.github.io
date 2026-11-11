@@ -1,7 +1,7 @@
 ---
 layout: custom_home
 title: articles
-permalink: /categories/article.html
+permalink: /categories/article/
 pagination:
   enabled: true
   category: article

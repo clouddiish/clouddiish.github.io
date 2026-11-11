@@ -1,7 +1,7 @@
 ---
 layout: custom_home
 title: english posts
-permalink: /categories/english.html
+permalink: /categories/english/
 pagination:
   enabled: true
   category: english

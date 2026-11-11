@@ -27,7 +27,7 @@ layout: base
       <div>
         <span class="meta-label">categories:</span>
         {% for category in page.categories %}
-          {% assign category_url = "/categories/" | append: category | append: ".html" %}
+          {% assign category_url = "/categories/" | append: category %}
           <a href="{{ category_url | relative_url }}">{{ category }}</a>
 
           {% unless forloop.last %}, {% endunless %}
@@ -37,7 +37,7 @@ layout: base
       <div>
         <span class="meta-label">tags:</span>
         {% for tag in page.tags %}
-          {% assign tag_url = "/tags/" | append: tag | append: ".html" %}
+          {% assign tag_url = "/tags/" | append: tag %}
           <a href="{{ tag_url | relative_url }}">{{ tag }}</a>
 
           {% unless forloop.last %}, {% endunless %}
