@@ -14,11 +14,25 @@ author:
    email: olga.szymczaak@gmail.com
 
 collections:
+  language_pages:
+    output: true
+  post_type_pages:
+    output: true
   tag_pages:
     output: true
     permalink: /tags/:name.html
 
 defaults:
+  - scope:
+      path: ""
+      type: "language_pages"
+    values:
+      layout: "language_page"
+  - scope:
+      path: ""
+      type: "post_type_pages"
+    values:
+      layout: "post_type_page"
   - scope:
       path: ""
       type: "tag_pages"
@@ -38,9 +52,9 @@ minima:
   skin: dark
   nav_pages:
     - about.md
-    - articles.md
-    - artworks.md
-    - poems.md
+    - all_posts.md
+    - post_types.md
+    - languages.md
     - tags.md
   show_excerpts: false
   date_format: "%Y-%m-%d"

@@ -1,5 +1,7 @@
 ---
 title: about
-layout: page
+layout: base
 ---
+# about
+
 test about text

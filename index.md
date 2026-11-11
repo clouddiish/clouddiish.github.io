@@ -1,5 +1,5 @@
 ---
 title: Olga Szymczak (clouddiish)
-layout: home
+layout: base
 ---
-test home text
+test index text
