@@ -4,6 +4,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
 
 url: "https://clouddiish.github.io"
 title: clouddiish
@@ -12,6 +13,13 @@ description: this is my personal website with anything and everything
 author:
    name: Olga Szymczak (clouddiish)
    email: olga.szymczaak@gmail.com
+
+paginate: 2
+paginate_path: "/all_posts/page:num/"
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
 collections:
   language_pages:
@@ -52,7 +60,7 @@ minima:
   skin: dark
   nav_pages:
     - about.md
-    - all_posts.md
+    - all_posts/index.html
     - post_types.md
     - languages.md
     - tags.md
