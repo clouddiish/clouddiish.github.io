@@ -4,9 +4,11 @@ description: test description
 collections:
   landing_pages:
     output: true
+    permalink: /:name.html
   
   tag_pages:
     output: true
+    permalink: /tags/:name.html
 
 defaults:
   - scope:
