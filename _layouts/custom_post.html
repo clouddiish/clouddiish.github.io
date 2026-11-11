@@ -25,25 +25,20 @@ layout: base
       {%- endif -%}
 
       <div>
-        <span class="meta-label">post type:</span>
-        <span>{{ page.post_type }}</span>
-      </div>
+        <span class="meta-label">categories:</span>
+        {% for category in page.categories %}
+          {% assign category_url = "/categories/" | append: category | append: ".html" %}
+          <a href="{{ category_url | relative_url }}">{{ category }}</a>
 
-      <div>
-        <span class="meta-label">language:</span>
-        <span>{{ page.language }}</span>
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
       </div>
 
       <div>
         <span class="meta-label">tags:</span>
         {% for tag in page.tags %}
-          {% assign tag_page = site.tag_pages | where: "title", tag | first %}
-
-          {% if tag_page %}
-            <a href="{{ tag_page.url }}">{{ tag }}</a>
-          {% else %}
-            {{ tag }}
-          {% endif %}
+          {% assign tag_url = "/tags/" | append: tag | append: ".html" %}
+          <a href="{{ tag_url | relative_url }}">{{ tag }}</a>
 
           {% unless forloop.last %}, {% endunless %}
         {% endfor %}

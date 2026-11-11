@@ -1,7 +1,8 @@
 ---
 title: test artwork
-post_type: artwork
-language: polish
+categories:
+    - artwork
+    - polish
 tags:
     - test_tag1
 ---

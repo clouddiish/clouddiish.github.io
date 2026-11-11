@@ -1,7 +1,8 @@
 ---
 title: test article
-post_type: article
-language: english
+categories:
+    - article
+    - english
 tags:
     - test_tag3
     - test_tag2

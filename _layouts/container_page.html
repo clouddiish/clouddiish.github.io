@@ -1,0 +1,24 @@
+---
+layout: base
+---
+<h1>{{ page.title }}</h1>
+{{ content }}
+
+{% if page.index_type == "tags" %}
+  {% assign items = site.tags | sort %}
+  {% assign prefix = "/tags/" %}
+{% elsif page.index_type == "categories" %}
+  {% assign items = site.categories | sort %}
+  {% assign prefix = "/categories/" %}
+{% endif %}
+
+<ul>
+  {% for item in items %}
+    {% assign item_name = item[0] %}
+    {% assign item_url = prefix | append: item_name | append: "/" %}
+
+    <li>
+      <a href="{{ item_url | relative_url }}">{{ item_name }}</a>
+    </li>
+  {% endfor %}
+</ul>
