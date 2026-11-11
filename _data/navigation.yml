@@ -2,7 +2,11 @@
   link: /
 - name: about
   link: /about.html
-- name: blog
-  link: /blog.html
-- name: tag_pages
-  link: /tag_pages.html
+- name: articles
+  link: /articles.html
+- name: poems
+  link: /poems.html
+- name: artworks
+  link: /artworks.html
+- name: tags
+  link: /tag_overview.html

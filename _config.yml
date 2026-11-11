@@ -2,10 +2,18 @@ title: test title
 description: test description
 
 collections:
+  landing_pages:
+    output: true
+  
   tag_pages:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "landing_pages"
+    values:
+      layout: "landing_page"
   - scope:
       path: ""
       type: "tag_pages"
