@@ -1,5 +1,5 @@
 ---
-short_name: ted
+tag_name: ted
 name: Ted Doe
 position: Writer
 ---

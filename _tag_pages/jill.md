@@ -1,5 +1,5 @@
 ---
-short_name: jill
+tag_name: jill
 name: Jill Smith
 position: Chief Editor
 ---

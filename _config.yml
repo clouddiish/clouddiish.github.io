@@ -2,15 +2,15 @@ title: test title
 description: test description
 
 collections:
-  authors:
+  tag_pages:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "tag_pages"
     values:
-      layout: "author"
+      layout: "tag_page"
   - scope:
       path: ""
       type: "posts"

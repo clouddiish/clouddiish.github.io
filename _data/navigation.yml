@@ -4,5 +4,5 @@
   link: /about.html
 - name: blog
   link: /blog.html
-- name: staff
-  link: /staff.html
+- name: tag_pages
+  link: /tag_pages.html
