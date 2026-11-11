@@ -1,4 +1,7 @@
 .env
+
+.vscode/
+
 .bundle/
 vendor/bundle/
 Gemfile.lock
