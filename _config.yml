@@ -7,6 +7,7 @@ plugins:
   - jekyll-paginate-v2
 
 url: "https://clouddiish.github.io"
+baseurl: ""
 title: clouddiish
 description: this is my personal website with anything and everything
 

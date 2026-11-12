@@ -10,7 +10,7 @@ layout: base
       {% assign pdate = page.date | date_to_xmlschema %}
       
       
-      <span class="meta-label">published:</span>
+      <span class="meta-label">created:</span>
       <time class="dt-published" datetime="{{ pdate }}" itemprop="datePublished">
         {{ pdate | date: date_format }}
       </time>
@@ -51,6 +51,13 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
           {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
+      </div>
+      {%- endif %}
+
+      {%- if page.previous_iteration_relative_url %}
+      <div>
+        <span class="meta-label">previous iteration:</span>
+        <a href="{{ page.previous_iteration_relative_url | relative_url }}">link</a>
       </div>
       {%- endif %}
 
