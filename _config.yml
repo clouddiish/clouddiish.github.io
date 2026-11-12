@@ -12,11 +12,11 @@ description: this is my personal website with anything and everything
 
 author:
    name: Olga Szymczak (clouddiish)
-   email: olga.szymczaak@gmail.com
+   email: olga.szymczaak+clouddiish@gmail.com
 
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 10
   sort_reverse: true
 
 sass:
